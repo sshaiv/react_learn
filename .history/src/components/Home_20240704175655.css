@@ -1,0 +1,281 @@
+/* Navbar container */
+.navbar {
+    background-color: #333; /* Dark background */
+    color: #fff; /* Light text color */
+    padding: 10px 0;
+  }
+  
+  /* Container for centering content */
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Logo link */
+  .navbar .logo {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Navigation links */
+  .navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-links li a:hover {
+    color: #ffc107; /* Change color on hover */
+  }
+  
+  .home {
+    background-image: url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEzfHxuYXR1cmV8ZW58MHx8fHwxNjM2MDk3MDQz&ixlib=rb-1.2.1&q=80&w=400"); /* Example background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0; /* Adjust padding as needed */
+    text-align: center;
+  }
+  
+  .home .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .home .btn {
+    background-color: #4caf50; /* Green button */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home .btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .footer {
+    background-color: #333; /* Dark background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .footer .social-links {
+    margin-top: 10px;
+  }
+  
+  .footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  .footer .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+
+/* Posts Container */
+.posts-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Individual Post */
+  .post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .post h1{
+    color: ;
+  }
+  .post h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #b43232;
+  }
+  
+  .post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .post-link {
+    text-decoration: none;
+    color: inherit; /* Ensure links inherit parent color */
+  }
+  
+  .post-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Post Details Container */
+  .post-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .post-details {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .post-details p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #666;
+  }
+  
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-content {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+
+  .contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
